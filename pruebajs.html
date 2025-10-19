@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div id="miCotenedor">
+  <p>este es un parrafo dentro del  contenedor</p>
+</div>
+
+    <script>
+        let nombre = "daniel";
+        let nacimiento = 1999;
+        let actual = 2025;
+        let edad = actual-nacimiento;
+
+
+        
+
+
+
+console.log ("actual-nacimiento", edad )
+document.write("mi edad es",edad)
+document.write("mi nombre es ", nombre)
+document.write("actual", actual)
+   
+   
+   let hora = 20;
+
+   if (hora < 12) {
+
+    console.log("buenos dias");
+   } else if (hora < 18) {
+     
+    console.log ("buenas tardes");
+
+   } else {
+
+    console.log ("buenas noches");
+
+   }
+
+  
+  for ( let i = 0; i < 6; i++) { 
+
+    console.log("interacion" + i);
+
+  }
+
+    
+  let contador = 0;
+
+  while ( contador < 10){
+
+    console.log("contador de 0 a 10 " + contador);
+
+    contador++
+  }
+    function saludar(nombre) {
+
+        return "hola" + nombre+ "!";
+
+    }
+    console.log(saludar("daniel"));
+
+    console.log(saludar("selvin"));
+
+ const titulopag =  document.title;
+ console.log(titulopag);   
+ const elemento  = document.getElementById("micontenedor");
+ document.write(elemento,innertext);
+ </script>
+
+
+     
+</body>
+
+</html>

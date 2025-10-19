@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>{
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Comparativa de Eventos en JavaScript</title>
+</head>}
+<body>
+
+    <h1>Tabla Comparativa de Eventos en JavaScript</h1>
+
+    <table>
+        <tr>
+            <th>Evento</th>
+            <th>Descripción</th>
+            <th>Ejemplo de Uso</th>
+        </tr>
+
+        <tr>
+            <td><strong>onclick</strong></td>
+            <td>Se ejecuta cuando el usuario hace clic sobre un elemento.</td>
+            <td>
+                <code>
+                    &lt;button onclick="alert('¡Hola!')"&gt;Haz clic&lt;/button&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>onmouseover</strong></td>
+            <td>Se dispara cuando el puntero del ratón pasa sobre un elemento.</td>
+            <td>
+                <code>
+                    &lt;div onmouseover="this.style.color='red'"&gt;Pasa el mouse aquí&lt;/div&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>onkeydown</strong></td>
+            <td>Se ejecuta cuando una tecla del teclado es presionada.</td>
+            <td>
+                <code>
+                    &lt;input onkeydown="console.log('Tecla presionada')" placeholder="Escribe algo..."&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>onchange</strong></td>
+            <td>Ocurre cuando el valor de un campo de formulario cambia y se pierde el foco.</td>
+            <td>
+                <code>
+                    &lt;select onchange="alert('Opción cambiada')"&gt;<br>
+                    &nbsp;&nbsp;&lt;option&gt;Opción 1&lt;/option&gt;<br>
+                    &nbsp;&nbsp;&lt;option&gt;Opción 2&lt;/option&gt;<br>
+                    &lt;/select&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>onload</strong></td>
+            <td>Se ejecuta cuando la página ha terminado de cargarse completamente.</td>
+            <td>
+                <code>
+                    &lt;body onload="alert('Página cargada correctamente!')"&gt;&lt;/body&gt;
+                </code>
+            </td>
+        </tr>
+
+    </table>
+
+<!-- </body -->
+</html>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3f7;
+            margin: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: left;
+            background-color: #fff;
+        }
+        th {
+            background-color: #3f87a6;
+            color: white;
+        }
+        code {
+            background-color: #f5f5f5;
+            padding: 5px;
+            display: block;
+            border-radius: 4px;
+        }
+    </style>

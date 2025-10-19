@@ -1,0 +1,30 @@
+*{
+    font-family:Arial, sans-serif; 
+    font-size: 14pt;
+    text-align: center;
+    background-color: aquamarine; 
+
+    }
+
+    h1{
+        color: blue;
+        font-size: 16px;
+        color: rgb(18, 167, 167);
+
+        #Actividades{
+color: blue;
+        }
+
+        img{
+            border-radius: 50%;
+            width: 200px;
+            height: auto;
+            box-shadow: 2px 2px 5px rgb(0, 113, 128);
+        }
+
+
+        
+    
+
+
+    
